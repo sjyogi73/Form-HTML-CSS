@@ -1,0 +1,124 @@
+
+/*body*/
+
+body {
+  font-family:fantasy;
+  font-size: 20px;
+  font-weight: 40px;
+  background-image: url(./img/bg-digital.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: rgb(17, 13, 13);
+  
+}
+
+/*headings*/
+
+#desc{
+  text-align: center;
+  color: rgb(12, 6, 6);
+  font-family: cursive;
+}
+.tit{
+  color: rgb(12, 9, 9);
+  text-align: center;
+  font-family: fantasy;
+  margin-top: 40px;
+}
+
+h1 {
+  font-weight: 200;
+}
+
+p{
+  font-size: 20px; 
+}
+
+h1,p {
+  margin-top: 0;
+  margin-bottom: 12px;
+  margin-left: 60px;
+}
+
+/*label*/
+
+label {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  margin-bottom: 12px;
+  margin-left: 60px;
+
+}
+
+ /*Buttons*/
+
+input,button,select,textarea {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 18px;
+  margin-bottom: 12px;
+  margin-left: 60px;
+}
+
+.container {
+  width: 100%;
+  margin: 3px auto 0 auto;
+  max-width: 720px;
+}
+.frm{
+  margin-bottom: 40px;
+}
+
+form {
+  padding: 1px;
+}
+.formall {
+  margin: 0 auto 1.25rem auto;
+  padding: 0.25rem; 
+}
+
+/*forms -radio,checkbox,textarea*/
+
+.total {
+  background-color: #33c4f5;
+  margin-top: 70px;
+  border: 0.5px solid rgb(158, 217, 245);
+  font-size: small;
+}
+.forms{
+  margin-left: 60px;
+  display: block;
+  width: 80%;
+  height: 30px; 
+  color: #495057;
+  background-color: #fff;
+  border: 2px solid #c8def5;
+  border-radius: 3px;
+}
+.input-radio,
+.input-checkbox {
+  display: inline-block;
+  margin-right: 6px;
+}
+.input-textarea {
+ 
+  height: 120px;
+  width: 80%;
+  padding: 2px;
+  margin-left: 60px;
+}
+
+/*submit button*/
+
+.submitb1{
+  display: block;
+  width: 80%;
+  padding: 13px;
+  border-radius: 1px;
+  margin-left: 60px;
+  background-color: rgb(85, 235, 93);
+  border: none;
+}
+
+
+

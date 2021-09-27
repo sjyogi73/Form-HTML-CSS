@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Three</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <h1 class="tit">Task  Number Three</i></h1>
+        <p id="desc">
+          Task Three For Form Designing
+        </p>
+    </header> 
+    <form  class="total">
+      <div class="frm">
+        <label>Name</label>
+          <input
+              type="text"
+              class="forms"
+              placeholder="Enter your name"/>  
+          </div>
+
+      <div class="frm">
+        <label>Email</label>
+          <input
+               type="email"
+               class="forms"
+               placeholder="Enter your Email"/>
+      </div>
+
+      <div class="frm">
+        <label id="number-label" for="number">
+              Age<span class="clue">(optional)</span></label> 
+          <input
+                 class="forms"
+                 type="number"
+                 placeholder="Age" />
+      </div>
+          
+      <div class="frm">
+        <p>Which option best describes your current role?</p>
+          <select  class="forms">
+            <option disabled selected value>Current role...</option>
+            <option value="student">Student</option>
+            <option value="job">Full Time Job</option>             
+            <option value="other">Other</option>
+          </select>
+      </div>
+      
+      <div class="frm">
+        <p>Would you recommend <b>Primespot.Tech</b> to a friend?</p>
+          <label>
+            <input
+                name="user-recommend"
+                value="one"
+                type="radio"
+                class="input-radio"/> 
+                Definitely</label >   
+
+          <label>
+            <input
+                name="user-recommend"
+                type="radio"
+                value="two"
+                class="input-radio"/>
+                Maybe</label>
+
+            <label>
+              <input
+                name="user-recommend"
+                value="three"
+                type="radio"
+                class="input-radio"/>
+                Not sure</label>          
+          </div>
+      
+          <div class="frm">
+            <p>
+              What is your favorite feature of <b>Primespot.Tech</b> ?
+            </p>
+              <select  class="forms" required>
+                <option disabled selected value>options...</option>
+                <option value="challenges">Challenges</option>
+                <option value="projects">Projects</option>
+                <option value="community">Community</option>
+            </select>
+          </div>
+      
+          <div class="frm">
+            <p>
+              What would you like to see improved?
+              <i class="choce">(Check all that apply)</i>
+            </p>
+      
+          <label>
+            <input
+                type="checkbox"
+                class="input-checkbox"/>
+                Front-end Projects</label>
+            
+          <label>
+           <input
+              type="checkbox"
+              name="one"
+              class="input-checkbox"/>
+              Back-end Projects</label >
+           
+          <label>
+           <input
+
+              type="checkbox"
+              name="two"
+              class="input-checkbox"/>
+              Interesting Session</label>
+            
+          <label>
+            <input
+              type="checkbox"
+              name="three"
+              class="input-checkbox"/>
+              Challenges</label>
+          
+          <div class="frm">
+            <p>Any Comments or Suggestions?</p>
+            <textarea
+              class="input-textarea" placeholder="Enter your comments.. "
+              >
+            </textarea>
+          </div>
+      
+          <div class="frm">
+            <button type="submit" class="submitb1">
+              Submit
+            </button>
+          </div>
+        </form>
+      </div>
+    
+</body>
+</html>
